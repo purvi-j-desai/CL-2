@@ -1,0 +1,16 @@
+			// Server Output
+______________________________________________________________
+
+C:\Program Files\Java\jdk1.6.0\bin>javac RMIServer.java
+
+C:\Program Files\Java\jdk1.6.0\bin>javac SetInterface.java
+
+C:\Program Files\Java\jdk1.6.0\bin>javac SetImplementation.java
+
+C:\Program Files\Java\jdk1.6.0\bin>rmic SetImplementation
+
+C:\Program Files\Java\jdk1.6.0\bin>start rmiregistry
+
+C:\Program Files\Java\jdk1.6.0\bin>java RMIServer
+
+________________________________________________________________

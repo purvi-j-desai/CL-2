@@ -1,0 +1,2 @@
+#define PNAME "chatprog"
+#define MAX 255

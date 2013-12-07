@@ -1,0 +1,5 @@
+#define max 50
+struct buffer {
+  char buff[max];
+  int produced;
+};

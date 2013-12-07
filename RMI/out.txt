@@ -1,0 +1,36 @@
+			// Client Output
+
+__________________________________________________________________
+
+C:\>cd C:\Program Files\Java\jdk1.6.0\bin
+
+C:\Program Files\Java\jdk1.6.0\bin>javac RMIClient.java
+
+C:\Program Files\Java\jdk1.6.0\bin>javac SetImplementation.java
+
+C:\Program Files\Java\jdk1.6.0\bin>javac SetInterface.java
+
+C:\Program Files\Java\jdk1.6.0\bin>rmic SetImplementation
+
+C:\Program Files\Java\jdk1.6.0\bin>java RMIClient
+
+         Enter the elements of the first set (* to end):-
+1
+2
+3
+*
+
+         Enter the elements of the second set (* to end):-
+2
+3
+4
+*
+The set A is :- [1, 2, 3]
+The set B is :- [2, 3, 4]
+The union of the two sets is :- [1, 2, 3, 4]
+The intersection of the two sets is :- [2, 3]
+The difference of the two sets is :- [1]
+
+C:\Program Files\Java\jdk1.6.0\bin>
+
+___________________________________________________________________

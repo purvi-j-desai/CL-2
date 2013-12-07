@@ -1,0 +1,13 @@
+#include <sys/types.h>
+#include <sys/ipc.h>
+#include <sys/shm.h>
+#include <stdio.h>
+
+
+int main()
+{
+  key_t key;
+  int shmid;
+  char *shm, *s;
+  return 0;
+}
